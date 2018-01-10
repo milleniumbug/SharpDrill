@@ -6,6 +6,33 @@ namespace SharpDrill
 {
     public static class EnumerableExt
     {
+        public static IEnumerable<int> Ints(int start = 0)
+        {
+            while(true)
+            {
+                yield return start++;
+            }
+        }
+
+        public static IEnumerable<TElement> Repeat<TElement>(TElement element)
+        {
+            while(true)
+            {
+                yield return element;
+            }
+        }
+
+        public static IEnumerable<TElement> Cycle<TElement>(this IReadOnlyCollection<TElement> elements)
+        {
+            while(true)
+            {
+                foreach(var element in elements)
+                {
+                    yield return element;
+                }
+            }
+        }
+
         public static IEnumerable<TElement> Reversed<TElement>(this IReadOnlyList<TElement> input)
         {
             for(int i = input.Count - 1; i >= 0; i--)
