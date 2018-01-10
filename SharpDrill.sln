@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDrill", "SharpDrill\SharpDrill.csproj", "{E430605F-575C-40E3-A1ED-D23C06FDB71B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDrill.Tests", "SharpDrill.Tests\SharpDrill.Tests.csproj", "{5BBC015D-DB17-4116-A5CA-D84DCBC24815}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E430605F-575C-40E3-A1ED-D23C06FDB71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E430605F-575C-40E3-A1ED-D23C06FDB71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E430605F-575C-40E3-A1ED-D23C06FDB71B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BBC015D-DB17-4116-A5CA-D84DCBC24815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BBC015D-DB17-4116-A5CA-D84DCBC24815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BBC015D-DB17-4116-A5CA-D84DCBC24815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BBC015D-DB17-4116-A5CA-D84DCBC24815}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

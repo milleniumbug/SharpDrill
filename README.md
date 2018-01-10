@@ -1,0 +1,1 @@
+All the code I end up copy pasting into new projects (at least, not all of it)
